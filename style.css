@@ -38,10 +38,6 @@ body {
 	text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
 }
 
-.navbar-brand {
-	font-weight: bold;
-}
-
 .navbar {
   padding: 25px;
   background-color: #ffffff !important;
@@ -49,6 +45,8 @@ body {
 }
 .nav-link {
 	color: black;
+}
+.navbar-brand {
 	font-weight: bold;
 }
 
