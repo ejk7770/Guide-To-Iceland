@@ -1,0 +1,72 @@
+/* ADD YOUR CUSTOM CSS TO THIS FILE BELOW */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.hero-image {
+      height: 100vh;
+      background-image: url('Icelandpic.jpg'); /* Replace with your image path */
+      background-size: cover;
+      background-position: 50% 22%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+    }
+
+h2, #scrollspyHeading1 {
+	padding-left: 25px;
+}
+
+
+.image-hover {
+  transition: transform 0.4s ease;
+}
+
+.image-hover:hover {
+  transform: scale(1.05); /* Adjust the scale for more/less zoom */
+  z-index: 1;
+}
+
+body {
+  font-family: 'Noto Serif Display', serif;
+}
+
+.golden-circle {
+	text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+}
+
+.navbar-brand {
+	font-weight: bold;
+}
+
+.navbar {
+  padding: 25px;
+  background-color: #ffffff !important;
+  font-family: 'Noto Serif Display', serif;
+}
+.nav-link {
+	color: black;
+	font-weight: bold;
+}
+
+.col section {
+  margin-top: 1rem;
+  padding: 0 1rem;
+  line-height: 1.5;
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+footer {
+      background-image: url('Icelandpic.jpg');
+      background-size: cover;
+      background-position: center;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+}
