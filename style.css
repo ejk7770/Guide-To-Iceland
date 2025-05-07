@@ -58,6 +58,10 @@ body {
   font-style: italic;
 }
 
+.bg-body-tertiary {
+  background-color: transparent !important;
+}
+
 
 footer {
       background-image: url('Icelandpic.jpg');
